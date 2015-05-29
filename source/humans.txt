@@ -1,0 +1,23 @@
+/* TEAM */
+
+
+/* THANKS */
+
+    Ruby
+    Node.Js
+    Middleman
+    HTML5 Bolireplate
+    HAML
+    Sass
+    Susy
+    Compass
+    Modernizr
+    jQuery
+    GIT
+
+/* SITE */
+
+    Last Update: YYYY/MM/DD
+    Doctype: HTML5
+    IDE: RubyMine
+    Platform: Middleman - Ruby

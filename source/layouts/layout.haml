@@ -1,0 +1,31 @@
+!!!5
+%html.no-js{lang:''}
+  %head
+    %meta{charset: 'utf-8'}/
+    %meta{content: 'ie=edge', 'http-equiv' => 'x-ua-compatible'}/
+    %title
+      =@title
+    %meta{content: '', :name => 'description'}/
+    %meta{content: 'width=device-width, initial-scale=1', name: 'viewport'}/
+
+    =stylesheet_link_tag  'application'
+
+    %link{rel:'icon', href:'favicon.ico', type:'image/x-icon'}/
+
+    =javascript_include_tag 'vendor/modernizr-2.8.3.min.js'
+
+  %body{class: @page_classes || page}
+
+    /[if lt IE 8]
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+
+    = partial 'partials/header'
+
+    = yield
+
+    = partial 'partials/footer'
+
+
+
+
+
