@@ -16,8 +16,8 @@ Coffee Script, Sass, Susy, Compass.
 - Middleman Smusher
 
 ### Quick start
-Clone the git repo `git clone https://github.com/`
+Clone the git repo `git clone https://github.com/coskuntekin/middleman-starter-kit.git`
 
 ### License
 The code is available under the
-[MIT license](github.com/h5bp/html5-boilerplate/blob/master/LICENSE.txt).
+[MIT license](github.com/coskuntekin/middleman-starter-kit/blob/master/LICENSE).
