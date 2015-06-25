@@ -1,18 +1,23 @@
 // Import Compass
-@import "compass"
+@import compass
 
-//Import Export Bootstrap Components
-@import "vendor/bootstrap-components"
+//Helpers
+@import helpers/functions
+@import helpers/mixins
+@import helpers/placeholders
+@import helpers/variables
 
 //Twitter Boostrap override
-@import "vendor/bootstrap-override"
+@import vendor/bootstrap-override
 
-// Import Twitter Bootstrap
-@import "bootstrap-sprockets"
-@import "bootstrap"
+//Import Bootstrap Components
+@import vendor/bootstrap-components
 
-// Import Font Awesome
-@import "font-awesome"
+//Import Font Awesome
+@import font-awesome
+
+//Pages
+@import pages/home
 
 //Themes
-@import "themes/_theme.sass"
+@import themes/theme.sass
