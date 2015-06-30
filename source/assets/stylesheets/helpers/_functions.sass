@@ -1,3 +1,11 @@
 //
 // Function
 // --------------------------------------------------
+
+@for $i from 1 through 5
+  .mb-#{($i*10)}
+    margin-bottom: (($i*10)+px)
+
+@for $i from 1 through 5
+  .mt-#{($i*10)}
+    margin-top: (($i*10)+px)
