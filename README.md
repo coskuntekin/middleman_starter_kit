@@ -1,6 +1,6 @@
 ### Middleman Start kit Template
 Middleman starter kit template created for middleman front-end development.
-If you wonder about middleman please [check out here](www.middlemanapp.com)
+If you wonder about middleman please [check out here](https://middlemanapp.com/)
 
 ### What's Include
 Middleman start kit template basically build on HTML5 Boilerplate front-end
@@ -20,4 +20,4 @@ Clone the git repo `git clone https://github.com/coskuntekin/middleman-starter-k
 
 ### License
 The code is available under the
-[MIT license](github.com/coskuntekin/middleman-starter-kit/blob/master/LICENSE).
+[MIT license](https://github.com/coskuntekin/middleman-starter-kit/blob/master/LICENSE).
