@@ -2,14 +2,15 @@
 %html.no-js{lang:''}
   %head
     %meta{charset: 'utf-8'}/
-    %meta{content: 'ie=edge', 'http-equiv' => 'x-ua-compatible'}/
+    %meta{content: 'ie=edge', 'http-equiv':'x-ua-compatible'}/
     %title
       =@title
-    %meta{content: '', :name => 'description'}/
+    %meta{content: '', name: 'description'}/
     %meta{content: 'width=device-width, initial-scale=1', name: 'viewport'}/
 
-    =stylesheet_link_tag  'application'
-
+    =stylesheet_link_tag  'application',
+                          'http://fonts.googleapis.com/css?family=Droid+Serif'
+                          
     %link{rel:'icon', href:'favicon.ico', type:'image/x-icon'}/
 
     =javascript_include_tag 'vendor/modernizr-2.8.3.min.js'
@@ -24,8 +25,3 @@
     = yield
 
     = partial 'partials/footer'
-
-
-
-
-
