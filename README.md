@@ -1,4 +1,4 @@
-### Middleman Start kit Template
+### Middleman Front-end Starter Kit
 Middleman starter kit template created for middleman front-end development.
 If you wonder about middleman please [check out here](https://middlemanapp.com/)
 
@@ -14,6 +14,7 @@ Coffee Script, Sass, Susy, Compass.
 - Font Awesome Gem
 - Middleman Sitemap
 - Middleman Smusher
+- Google Font 
 
 ### Quick start
 Clone the git repo `git clone https://github.com/coskuntekin/middleman-starter-kit.git`
