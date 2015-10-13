@@ -8,10 +8,11 @@ template. Ready to use Rails assets file structure, Sass file structure, HAML,
 Coffee Script, Sass, Susy, Compass.
 
 ##### Thirty Part Includes
-- CDN jQuery
+- jQuery
 - Modernizr
-- Twitter Bootstrap Gem
-- Font Awesome Gem
+- Normalize
+- Twitter Bootstrap
+- Font Awesome
 - Middleman Sitemap
 - Middleman Smusher
 - Google Font 
