@@ -4,7 +4,6 @@
 /* THANKS */
 
     Ruby
-    Node.Js
     Middleman
     HTML5 Bolireplate
     HAML
