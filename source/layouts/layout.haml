@@ -1,20 +1,16 @@
 !!!5
 %html.no-js{lang:''}
   %head
-    %meta{charset: 'utf-8'}/
-    %meta{content: 'ie=edge', 'http-equiv':'x-ua-compatible'}/
+    %meta{charset: 'utf-8'}
+    %meta{content: 'ie=edge', 'http-equiv':'x-ua-compatible'}
     %title
       =@title
-    %meta{content: '', name: 'description'}/
-    %meta{content: 'width=device-width, initial-scale=1', name: 'viewport'}/
-
+    %meta{content: '', name: 'description'}
+    %meta{content: 'width=device-width, initial-scale=1', name: 'viewport'}
     =stylesheet_link_tag  'application',
-                          'http://fonts.googleapis.com/css?family=Droid+Serif'
-                          
-    %link{rel:'icon', href:'favicon.ico', type:'image/x-icon'}/
-
-    =javascript_include_tag 'vendor/modernizr-2.8.3.min.js'
-
+                          '//fonts.googleapis.com/css?family=Droid+Serif',
+                          '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'
+    %link{rel:'icon', href:'favicon.ico', type:'image/x-icon'}
   %body{class: @page_classes || page}
 
     /[if lt IE 8]

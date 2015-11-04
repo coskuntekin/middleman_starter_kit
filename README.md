@@ -7,19 +7,14 @@ Middleman start kit template basically build on HTML5 Boilerplate front-end
 template. Ready to use Rails assets file structure, Sass file structure, HAML,
 Coffee Script, Sass, Susy, Compass.
 
-##### Thirty Part Includes
 - jQuery
-- Modernizr
 - Normalize
 - Twitter Bootstrap
+- Google Font
 - Font Awesome
 - Middleman Sitemap
 - Middleman Smusher
 - Google Font 
 
 ### Quick start
-Clone the git repo `git clone https://github.com/coskuntekin/middleman-starter-kit.git`
-
-### License
-The code is available under the
-[MIT license](https://github.com/coskuntekin/middleman-starter-kit/blob/master/LICENSE).
+Clone the git repo `git clone https://github.com/coskuntekin/middleman_starter_kit.git`
