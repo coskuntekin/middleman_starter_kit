@@ -175,24 +175,24 @@ h1 {
     margin: 0.83em 0;
 }
 
-  h3 {
-    font-size: 1.17em;
-    margin: 1em 0;
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
 }
 
-  h4 {
-    font-size: 1em;
-    margin: 1.33em 0;
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
 }
 
-  h5 {
-    font-size: 0.83em;
-    margin: 1.67em 0;
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
 }
 
-  h6 {
-    font-size: 0.67em;
-    margin: 2.33em 0;
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0;
 }
 }
 
@@ -216,22 +216,22 @@ mark {
     *margin: 1em 0;
 }
 
-  /*
-   * Addresses CSS quotes not supported in IE 6/7.
-   */
+/*
+ * Addresses CSS quotes not supported in IE 6/7.
+ */
 
-  q {
-    *quotes: none;
+q {
+  *quotes: none;
 }
 
-  /*
-   * Addresses `quotes` property not supported in Safari 4.
-   */
+/*
+ * Addresses `quotes` property not supported in Safari 4.
+ */
 
-  q:before,
-  q:after {
-    content: '';
-    content: none;
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 }
 
@@ -280,28 +280,28 @@ sub {
     *margin: 1em 0;
 }
 
-  dd {
-    *margin: 0 0 0 40px;
+dd {
+  *margin: 0 0 0 40px;
 }
 
-  /*
-   * Addresses paddings set differently in IE 6/7.
-   */
+/*
+ * Addresses paddings set differently in IE 6/7.
+ */
 
-  menu,
-  ol,
-  ul {
-    *padding: 0 0 0 40px;
+menu,
+ol,
+ul {
+  *padding: 0 0 0 40px;
 }
 
-  /*
-   * Corrects list images handled incorrectly in IE 7.
-   */
+/*
+ * Corrects list images handled incorrectly in IE 7.
+ */
 
-  nav ul,
-  nav ol {
-    *list-style: none;
-    *list-style-image: none;
+nav ul,
+nav ol {
+  *list-style: none;
+  *list-style-image: none;
 }
 
 }
@@ -370,7 +370,7 @@ samp {
   @if $legacy_browser_support {
     _font-family: 'courier new', monospace;
 }
-  font-size: 1em;
+font-size: 1em;
 }
 
 /* Forms

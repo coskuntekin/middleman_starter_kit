@@ -21,6 +21,7 @@ i# EditorConfig is awesome: http://EditorConfig.org
  # Tab indentation (no size specified)
  [*.js]
  indent_style = tab
+ indent_size = 2
 
  # Indentation override for all JS under lib directory
  [lib/**.js]

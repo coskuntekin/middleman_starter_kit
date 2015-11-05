@@ -57,13 +57,14 @@ end
 configure :build do
 
   # Minify CSS on build
-  activate :minify_css
+  # activate :minify_css
 
   # Minify Javascript on build
   # activate :minify_javascript
 
   # GZIP text files
   # activate :gzip
+  set :relative_links, true
 
 end
 
@@ -80,4 +81,3 @@ configure :production do
   # 'middleman server -e production'
 
 end
-

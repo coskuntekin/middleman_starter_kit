@@ -1,5 +1,5 @@
 //------------------------------------
-//	#BOOTSTRAP JS COMPONENTS
+//	#boostrap js components (http://getbootstrap.com/javascript/)
 //------------------------------------
 
 //= require bootstrap/transition

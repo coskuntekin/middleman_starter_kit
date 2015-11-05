@@ -10,7 +10,6 @@
     Sass
     Susy
     Compass
-    Modernizr
     jQuery
     GIT
 
