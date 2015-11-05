@@ -1,4 +1,4 @@
-### Middleman4 Front-end Starter Kit
+### Middleman v4 Front-end Starter Kit
 Middleman starter kit template created for middleman front-end development.
 If you wonder about middleman please [check out here](https://middlemanapp.com/)
 
