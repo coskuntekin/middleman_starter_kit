@@ -4,6 +4,7 @@ If you wonder about middleman please [check out here](https://middlemanapp.com/)
 
 ### How to Start 
 `middleman init your_project_name --template=middleman-starter-kit`
+
 More information is [here](https://middlemanapp.com/advanced/project_templates/) 
 
 ### What's Include
