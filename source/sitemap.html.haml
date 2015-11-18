@@ -1,0 +1,8 @@
+.container
+  .row
+    .col-lg-12.mt-50
+      %h3 Sitemap
+      %ul.list-unstyled
+        - sitemap.resources.each do |page|
+          - if page.url =~ /\.html/
+            %li= link_to page.url, page.url
