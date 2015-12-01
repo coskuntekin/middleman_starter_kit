@@ -9,7 +9,7 @@ gem 'middleman', '~> 4.0.0.beta.2'
 gem 'middleman-sprockets', '~> 4.0.0.beta.1'
 
 # Live-reloading plugin
-gem 'middleman-livereload', '~> 3.4.2'
+gem 'middleman-livereload', '~> 3.4.3'
 
 # For faster file watcher updates on Windows:
 gem 'wdm', '~> 0.1.0', :platforms => [:mswin, :mingw]
@@ -27,14 +27,13 @@ gem 'compass', '1.0.3'
 #gem 'susy', '2.2.3'
 
 # Twitter Bootstrap
-gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'bootstrap-sass', '~> 3.3.6'
 
 # Font Awesome
-gem 'font-awesome-rails', '~> 4.4.0.0'
+gem 'font-awesome-rails', '~> 4.5.0.0'
 
 # Middleman Sitemap
 # gem 'middleman-sitemap', '~> 0.0.13'
 
 # Middleman Smusher
 # gem 'middleman-smusher', '~> 3.0.0'
-
