@@ -19,6 +19,9 @@ template. Ready to use Rails assets file structure, Sass file structure.
 - Sass
 - jQuery
 - Bootstrap
-- Font Awesome
+- Font Awesome (CDN)
 - Editor Config
 - Simple sitemap helper
+- humans.txt
+- Open graph meta tags
+- Middleman Deploy
