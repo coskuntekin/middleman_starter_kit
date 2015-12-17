@@ -3,10 +3,24 @@
   %head
     %meta{charset: 'utf-8'}/
     %meta{content: 'ie=edge', 'http-equiv':'x-ua-compatible'}/
+    %meta{content: 'width=device-width, initial-scale=1', name: 'viewport'}/
+
     %title
       =@title
-    %meta{content: 'width=device-width, initial-scale=1', name: 'viewport'}/
+
+
+    %meta{content: 'http://www.youraddress.com', property: 'og:url'}/
+    %meta{content: 'website', property: 'og:type'}/
+    %meta{content: 'Your Awesome Title', property: 'og:title'}/
+    %meta{content: 'Your Description', property: 'og:description'}/
+    %meta{content: 'yourbanner.png', property: 'og:image'}/
+
+    %meta{content: '@yourtwitter', name: 'twitter:site'}/
+
     =stylesheet_link_tag  'application'
+    %link{href: "//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css", rel: "stylesheet", integrity: "sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==", crossorigin: "anonymous"}
+
+    %link{type:"text/plain", rel:"author", href:"http://domain/humans.txt"}/
     %link{rel:'icon', href:'favicon.ico', type:'image/x-icon'}/
   %body{class: @page_classes}
 

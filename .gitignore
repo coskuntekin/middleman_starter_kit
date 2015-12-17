@@ -24,3 +24,6 @@
 
 #Ignore Design Folder
 /design
+
+#Ignore ngrok [https://ngrok.com/]
+ngrok
