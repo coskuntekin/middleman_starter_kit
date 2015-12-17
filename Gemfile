@@ -25,9 +25,8 @@ gem 'bootstrap-sass', '~> 3.3.6'
 # Middleman Deploy (https://github.com/middleman-contrib/middleman-deploy/pull/87)
 # gem 'middleman-deploy', '~>  2.0.0.pre.alpha'
 
-# Middleman Deploy
+# Middleman Sitemap
 # gem 'middleman-sitemap', '~> 0.0.13'
-
 
 # Middleman Smusher
 # gem 'middleman-smusher', '~> 3.0.0'
