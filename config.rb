@@ -40,10 +40,6 @@ configure :development do
 
   # Reload the browser automatically whenever files change
   activate :livereload,  :no_swf => true
-  set :file_watcher_ignore, [
-          '.editorconfig',
-          '.htaccess',
-        ]
 
   # Assets Pipeline Sets
   set :haml, {ugly: false, format: :html5}

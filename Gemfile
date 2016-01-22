@@ -9,28 +9,21 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
-gem 'middleman', '>= 4.1.0.rc.1'
-gem 'middleman-livereload'
+###############################
+gem 'middleman', '>= 4.1.0.rc.2'
+gem 'middleman-livereload', '>= 3.4.6'
 gem 'middleman-compass', '>= 4.0.1'
 gem 'middleman-sprockets', '>= 4.0.0.rc.1'
 
-# Middleman Extensions (Middleman Deploy (https://github.com/middleman-contrib/middleman-deploy/pull/87))
+# Middleman Extensions
+###############################
+# (Middleman Deploy (https://github.com/middleman-contrib/middleman-deploy/pull/87))
 # gem 'middleman-deploy', '~>  2.0.0.pre.alpha'
 
-# Middleman Sitemap
-# gem 'middleman-sitemap', '~> 0.0.13'
-
-# Middleman Smusher
-# gem 'middleman-smusher', '~> 3.0.0'
-
-# Sass
-gem 'sass', '~> 3.4.21'
-
-# Susy
-# gem 'susy', '2.2.3'
-
+# Frameworks
+###############################
 # Bootstrap
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass', '>= 3.3.6'
 
 # Font Awesome
-gem 'font-awesome-sass', '~> 4.5.0'
+# gem 'font-awesome-sass'
