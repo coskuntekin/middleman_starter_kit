@@ -57,16 +57,16 @@ end
 configure :build do
 
   # Minify CSS on build
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # GZIP text files
   # activate :gzip
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Middleman Deploy (https://github.com/middleman-contrib/middleman-deploy/)
   #activate :deploy do |deploy|
