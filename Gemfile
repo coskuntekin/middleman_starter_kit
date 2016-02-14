@@ -20,7 +20,7 @@ gem 'middleman-sprockets', '>= 4.0.0.rc.1'
 # (Middleman Deploy (https://github.com/middleman-contrib/middleman-deploy/pull/87))
 # gem 'middleman-deploy', '~>  2.0.0.pre.alpha'
 
-# Frameworks
+# Frameworks/Library
 ###############################
 # Bootstrap
 gem 'bootstrap-sass', '>= 3.3.6'
