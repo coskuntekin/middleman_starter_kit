@@ -13,7 +13,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'middleman'
 gem 'middleman-livereload'
 gem 'middleman-compass', '>= 4.0.1'
-gem 'middleman-sprockets', '>= 4.0.0.rc.1'
+gem 'middleman-sprockets', '>= 4.0.0'
 
 # Middleman Extensions
 ###############################
