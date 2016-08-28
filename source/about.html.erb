@@ -1,0 +1,29 @@
+---
+title: "My Title"
+my_list:
+  - Middleman v4
+  - HAML
+  - ERb
+  - Sass
+  - jQuery
+  - Bootstrap
+  - Font Awesome (CDN)
+  - Editor Config
+  - Simple sitemap helper
+  - humans.txt
+  - Open graph meta tags
+  - Middleman Deploy
+  - ERb simple page (/about)
+---
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+          <h1>List</h1>
+          <ol>
+            <% current_page.data.my_list.each do |f| %>
+            <li><%= f %></li>
+            <% end %>
+          </ol>
+    </div>
+  </div>
+</div>
