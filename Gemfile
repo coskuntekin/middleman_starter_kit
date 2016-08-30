@@ -10,10 +10,10 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
 ###############################
-gem 'middleman'
-gem 'middleman-livereload'
-# gem 'middleman-compass', '>= 4.0.1' (issue:https://github.com/coskuntekin/middleman_starter_kit/issues/1)
-gem 'middleman-sprockets', '>= 4.0.0'
+gem 'middleman', '~> 4.1', '>= 4.1.10'
+gem 'middleman-livereload', '~> 3.4', '>= 3.4.6'
+# gem 'middleman-compass', '~> 4.0', '>= 4.0.1' (issue:https://github.com/coskuntekin/middleman_starter_kit/issues/1)
+gem 'middleman-sprockets', '~> 4.0'
 
 # Middleman Extensions
 ###############################
@@ -23,7 +23,7 @@ gem 'middleman-sprockets', '>= 4.0.0'
 # Frameworks/Library
 ###############################
 # Bootstrap
-gem 'bootstrap-sass', '>= 3.3.6'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
 # Font Awesome
 # gem 'font-awesome-sass'
