@@ -37,6 +37,7 @@ configure :development do
 
   #To activate the middleman-sprockets
   activate :sprockets
+  sprockets.append_path File.join root, "bower_components"
 
   # Automatic image dimensions on image_tag helpers
   activate :automatic_image_sizes

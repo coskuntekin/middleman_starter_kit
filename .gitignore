@@ -16,6 +16,9 @@
 # Ignore All cache
 .cache
 
+# Ignore Bower Components
+/bower_components
+
 # Ignore OSX .DS_store File
 .DS_Store
 
