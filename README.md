@@ -18,6 +18,7 @@ template. Ready to use Rails assets file structure, Sass file structure.
 - HAML
 - Sass
 - jQuery
+- Bower
 - Bootstrap
 - Font Awesome (CDN)
 - Editor Config
