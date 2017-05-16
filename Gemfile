@@ -10,10 +10,10 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
 ###############################
-gem 'middleman', '~> 4.1', '>= 4.1.10'
+gem 'middleman', '~> 4.2', '>= 4.2.1'
 gem 'middleman-livereload', '~> 3.4', '>= 3.4.6'
 # gem 'middleman-compass', '~> 4.0', '>= 4.0.1' (issue:https://github.com/coskuntekin/middleman_starter_kit/issues/1)
-gem 'middleman-sprockets', '~> 4.0'
+gem 'middleman-sprockets', '~> 4.1'
 
 # Middleman Extensions
 ###############################
