@@ -45,8 +45,12 @@ configure :development do
   # Reload the browser automatically whenever files change
   activate :livereload,  :no_swf => true
 
+  # Haml Configuration
+  # Disable Haml warnings
+  Haml::TempleEngine.disable_option_validator!
+  Haml::Options.defaults[:format] = :html5
+
   # Assets Pipeline Sets
-  set :haml, {ugly: false, format: :html5}
   set :css_dir, 'assets/stylesheets'
   set :js_dir, 'assets/javascripts'
   set :images_dir, 'assets/images'
@@ -79,7 +83,7 @@ configure :build do
   #activate :deploy do |deploy|
   #  deploy.deploy_method = :git
   #  Optional Settings
-  #  deploy.remote   = 'https://github.com/coskuntekin/baidu_weather_widget.git' # remote name or git url, default: origin
+  #  deploy.remote   = '.....' # remote name or git url, default: origin
   #  deploy.branch   = 'gh-pages' # default: gh-pages
   #  deploy.strategy = :submodule # commit strategy: can be :force_push or :submodule, default: :force_push
   #  deploy.commit_message = 'custom-message' # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`

@@ -12,18 +12,19 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 ###############################
 gem 'middleman', '~> 4.2', '>= 4.2.1'
 gem 'middleman-livereload', '~> 3.4', '>= 3.4.6'
-# gem 'middleman-compass', '~> 4.0', '>= 4.0.1' (issue:https://github.com/coskuntekin/middleman_starter_kit/issues/1)
 gem 'middleman-sprockets', '~> 4.1'
+#gem 'middleman-compass', '~> 4.0', '>= 4.0.1' (issue:https://github.com/coskuntekin/middleman_starter_kit/issues/1)
 
 # Middleman Extensions
 ###############################
 # (Middleman Deploy (https://github.com/middleman-contrib/middleman-deploy/pull/87))
-# gem 'middleman-deploy', '~>  2.0.0.pre.alpha'
+gem 'middleman-deploy', '~>  2.0.0.pre.alpha'
 
 # Frameworks/Library
 ###############################
 # Bootstrap
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'bootstrap', '~> 4.0.0.alpha6'
 
-# Font Awesome
-# gem 'font-awesome-sass'
+# Tether
+gem 'rails-assets-tether', '~> 1.1', '>= 1.1.1'
+
