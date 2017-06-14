@@ -15,14 +15,20 @@ Middleman start kit template basically build on HTML5 Boilerplate front-end
 template. Ready to use Rails assets file structure, Sass file structure.
 
 - Middleman v4
-- HAML
+- Haml v5
 - Sass
 - jQuery
 - Bower
-- Bootstrap
+- Bootstrap v4
 - Font Awesome (CDN)
 - Editor Config
 - Simple sitemap helper
 - humans.txt
 - Open graph meta tags
 - Middleman Deploy
+
+### Changelog
+- Update jQuery
+- Update Haml config (https://github.com/haml/haml/pull/894)
+- Update Gems
+- Bootstrap upgrade to v4 

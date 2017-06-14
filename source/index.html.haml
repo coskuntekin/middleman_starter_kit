@@ -3,53 +3,51 @@
 
 .container
   .row
-    .col-sm-12.mt-50
+    .col-12.mt-50
       .jumbotron.text-center
-        .page-header
-          %i.fa.fa-fort-awesome.fa-4x.text-muted
-          %h1 middleman starter kit
-    .col-sm-6.mt-50
-      .panel.panel-primary
-        .panel-heading
-          %h3.panel-title
-            Introduction
-        .panel-body
-          :markdown
-            ### Middleman v4 Front-end Starter Kit
-            Middleman v4 starter kit template created for middleman front-end development.
-            If you wonder about middleman please [check out here](https://middlemanapp.com/)
+        %i.fa.fa-fort-awesome.fa-4x.text-muted
+        %h1
+          Middleman v4 Front-end Starter Kit
+    .col-6.mt-50
+      .card
+        .card-header
+          Introduction
+        .card-block      
+          %p.card-text 
+            :markdown
+              Middleman v4 starter kit template created for middleman front-end development.
+              If you wonder about middleman please [check out here](https://middlemanapp.com/)
 
-            ### Quick start
-            `middleman init your_project_name --template=middleman-starter-kit`
+              ### Quick start
+              `middleman init your_project_name --template=middleman-starter-kit`
 
-            More information is [here](https://middlemanapp.com/advanced/project_templates/)
+              More information is [here](https://middlemanapp.com/advanced/project_templates/)
 
-            ### What's Include
-            Middleman start kit template basically build on HTML5 Boilerplate front-end
-            template. Ready to use Rails assets file structure, Sass file structure.
+              ### What's Include
+              Middleman start kit template basically build on HTML5 Boilerplate front-end
+              template. Ready to use Rails assets file structure, Sass file structure.
 
-            - Middleman v4
-            - HAML
-            - ERb
-            - Sass
-            - jQuery
-            - Bootstrap
-            - Font Awesome (CDN)
-            - Editor Config
-            - Simple sitemap helper
-            - humans.txt
-            - Open graph meta tags
-            - Middleman Deploy
-            - ERb simple page (/about)
-
-    .col-sm-6.mt-50
-      .panel.panel-primary
-        .panel-heading
-          %h3.panel-title
-            Sitemap
-        .panel-body
-          %ul.list-group
-            - sitemap.resources.each do |page|
-              - if page.url =~ /\.html/
-                %li.list-group-item
-                  = link_to page.url, page.url
+              - Middleman v4
+              - Haml v5
+              - ERb
+              - Sass
+              - jQuery
+              - Bootstrap v4
+              - Font Awesome (CDN)
+              - Editor Config
+              - Simple sitemap helper
+              - humans.txt
+              - Open graph meta tags
+              - Middleman Deploy
+              - ERb simple page 
+    .col-6.mt-50
+      .card
+        .card-header
+          Sitemap
+        .card-block
+          %p.card-text 
+            %ul.list-group
+              - sitemap.resources.each do |page|
+                - if page.url =~ /\.html/
+                  %li.list-group-item
+                    = link_to page.url, page.url
