@@ -36,7 +36,10 @@ end
 configure :development do
 
   #To activate the middleman-sprockets
-  activate :sprockets
+  require 'sprockets/es6'
+  activate :sprockets do |s|
+    s.supported_output_extensions << '.es6'
+  end
   sprockets.append_path File.join root, "bower_components"
 
   # Automatic image dimensions on image_tag helpers
@@ -65,7 +68,10 @@ end
 configure :build do
 
   #To activate the middleman-sprockets
-  activate :sprockets
+  require 'sprockets/es6'
+  activate :sprockets do |s|
+    s.supported_output_extensions << '.es6'
+  end
 
   # Minify CSS on build
   activate :minify_css

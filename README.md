@@ -17,6 +17,7 @@ template. Ready to use Rails assets file structure, Sass file structure.
 - Middleman v4
 - Haml v5
 - Sass
+- ES6 
 - jQuery
 - Bower
 - Bootstrap v4
@@ -28,6 +29,8 @@ template. Ready to use Rails assets file structure, Sass file structure.
 - Middleman Deploy
 
 ### Changelog
+[29/06/2017]
+- Add ES6 support
 - Update jQuery
 - Update Haml config (https://github.com/haml/haml/pull/894)
 - Update Gems
