@@ -45,6 +45,11 @@ configure :development do
   # Automatic image dimensions on image_tag helpers
   activate :automatic_image_sizes
 
+  # Autoprefixer
+  activate :autoprefixer do |prefix|
+    prefix.browsers = "last 2 versions"
+  end
+
   # Reload the browser automatically whenever files change
   activate :livereload,  :no_swf => true
 
