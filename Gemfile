@@ -17,6 +17,7 @@ gem 'middleman-sprockets', '~> 4.1', '>= 4.1.1'
 
 # Middleman Extensions
 ###############################
+gem 'sprockets-es6', '~> 0.6.0'
 # (Middleman Deploy (https://github.com/middleman-contrib/middleman-deploy/pull/87))
 gem 'middleman-deploy', '~>  2.0.0.pre.alpha'
 gem 'middleman-autoprefixer', '~> 2.8'
