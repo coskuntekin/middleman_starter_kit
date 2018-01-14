@@ -20,7 +20,7 @@ template. Ready to use Rails assets file structure, Sass file structure.
 - ES6 
 - jQuery
 - Bower
-- Bootstrap v4
+- Bootstrap v4 ("4.0.0.beta3")
 - Font Awesome (CDN)
 - Editor Config
 - Simple sitemap helper
@@ -29,6 +29,11 @@ template. Ready to use Rails assets file structure, Sass file structure.
 - Middleman Deploy
 
 ### Changelog
+[14/01/2018]
+- Bootstrap update "4.0.0.beta3"
+- Remove Compass
+- Add Autoprefixer
+
 [29/06/2017]
 - Add ES6 support
 - Update jQuery
