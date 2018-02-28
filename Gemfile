@@ -25,7 +25,7 @@ gem 'middleman-autoprefixer', '~> 2.8'
 # Frameworks/Library
 ###############################
 # Bootstrap
-gem 'bootstrap', '~> 4.0.0.beta3'
+gem 'bootstrap', '~> 4.0'
 # Popper
 gem 'popper_js', '~> 1.12.9'
 

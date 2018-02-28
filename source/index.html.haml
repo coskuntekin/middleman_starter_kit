@@ -5,9 +5,10 @@
   .row
     .col-12.mt-50
       .jumbotron.text-center
-        %i.fa.fa-fort-awesome.fa-4x.text-muted
-        %h1
-          Middleman v4 Front-end Starter Kit
+        =image_tag 'middleman-logo.svg', alt: 'middleman'
+        %hr.my-4
+        %h1.display-2
+          Front-end Starter Kit
     .col-6.mt-50
       .card
         .card-header
@@ -31,8 +32,9 @@
               - Haml v5
               - ERb
               - Sass
+              - Autoprefixer
               - jQuery
-              - Bootstrap v4 (4.0.0.beta3)
+              - Bootstrap v4 (4.0)
               - Font Awesome (CDN)
               - Editor Config
               - Simple sitemap helper

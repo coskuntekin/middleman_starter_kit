@@ -35,7 +35,7 @@ end
 # Development Environment
 configure :development do
 
-  #To activate the middleman-sprockets
+  #To activate the middleman-sprockets/ecmascript-6/bower
   require 'sprockets/es6'
   activate :sprockets do |s|
     s.supported_output_extensions << '.es6'

@@ -1,6 +1,6 @@
 ---
 title: "My Title"
-my_list:
+list:
   - Middleman v4
   - HAML
   - ERb
@@ -20,7 +20,7 @@ my_list:
     <div class="col-xs-12 col-sm-6">
           <h1>List</h1>
           <ol>
-            <% current_page.data.my_list.each do |f| %>
+            <% current_page.data.list.each do |f| %>
             <li><%= f %></li>
             <% end %>
           </ol>
