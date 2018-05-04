@@ -19,7 +19,6 @@ template. Ready to use Rails assets file structure, Sass file structure.
 - jQuery
 - Bower
 - Bootstrap v4 ("4.0")
-- Font Awesome (CDN)
 - Editor Config
 - Simple sitemap helper
 - humans.txt
@@ -27,6 +26,12 @@ template. Ready to use Rails assets file structure, Sass file structure.
 - Middleman Deploy
 
 ### Changelog
+[04/05/2018]
+- Update layout.haml
+- Update jQuery
+- Removed IE9 support 
+- Removed font-awesome CDN (use SVG icons)
+
 [28/02/2018]
 - Bootstrap update "4.0"
 

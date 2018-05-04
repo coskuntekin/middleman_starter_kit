@@ -1,6 +1,15 @@
-=javascript_include_tag '//cdn.bootcss.com/jquery/3.2.1/jquery.min.js'
+=javascript_include_tag '//code.jquery.com/jquery-3.3.1.min.js'
+
 :javascript
   //jQuery CDN fallback
-  window.jQuery || document.write('<script src="assets/javascripts/vendor/jquery.min.js"><\/script>')
+  window.jQuery || document.write('<script src="assets/javascripts/vendor/jquery-3.3.1.min.js"><\/script>')
 =javascript_include_tag 'main.js',
                         'application.js'
+
+/ Google Analytics: change UA-XXXXX-Y to be your site's ID.
+:javascript
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+%script{async:'', defer:'defer', src:'https://www.google-analytics.com/analytics.js'}
+
+                        
