@@ -27,7 +27,6 @@ template. Ready to use Rails assets file structure, Sass file structure.
 - Autoprefixer
 - EcmaScript 6
 - jQuery
-- Bower
 - Bootstrap v4 ("4.1.1")
 - Editor Config
 - Simple sitemap helper
