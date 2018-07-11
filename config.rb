@@ -35,28 +35,22 @@ end
 # Development Environment
 configure :development do
 
-  #To activate the middleman-sprockets/ecmascript-6/bower
+  #To activate the middleman-sprockets
   require 'sprockets/es6'
   activate :sprockets do |s|
     s.supported_output_extensions << '.es6'
   end
-  sprockets.append_path File.join root, "bower_components"
-
+  
   # Automatic image dimensions on image_tag helpers
   activate :automatic_image_sizes
 
   # Autoprefixer
   activate :autoprefixer do |prefix|
-    prefix.browsers = "last 2 versions"
+    prefix.browsers = "last 1 versions"
   end
 
   # Reload the browser automatically whenever files change
-  activate :livereload,  :no_swf => true
-
-  # Haml Configuration
-  # Disable Haml warnings
-  Haml::TempleEngine.disable_option_validator!
-  Haml::Options.defaults[:format] = :html5
+  activate :livereload, :no_swf => true
 
   # Assets Pipeline Sets
   set :css_dir, 'assets/stylesheets'
@@ -78,6 +72,11 @@ configure :build do
     s.supported_output_extensions << '.es6'
   end
 
+  # Autoprefixer
+  activate :autoprefixer do |prefix|
+    prefix.browsers = "last 1 versions"
+  end
+
   # Minify CSS on build
   activate :minify_css
 
@@ -87,19 +86,12 @@ configure :build do
   # GZIP text files
   # activate :gzip
 
+  # Append a hash to asset urls (make sure to use the url helpers)
+  # activate :asset_hash
+
   # Use relative URLs
   activate :relative_assets
-
-  # Middleman Deploy (https://github.com/middleman-contrib/middleman-deploy/)
-  #activate :deploy do |deploy|
-  #  deploy.deploy_method = :git
-  #  Optional Settings
-  #  deploy.remote   = '.....' # remote name or git url, default: origin
-  #  deploy.branch   = 'gh-pages' # default: gh-pages
-  #  deploy.strategy = :submodule # commit strategy: can be :force_push or :submodule, default: :force_push
-  #  deploy.commit_message = 'custom-message' # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
-  #end
-
+  
 end
 
 # Production Environment
