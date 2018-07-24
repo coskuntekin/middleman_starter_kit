@@ -32,7 +32,6 @@ template. Ready to use Rails assets file structure, Sass file structure.
 - Simple sitemap helper
 - humans.txt
 - Open graph meta tags
-- Middleman Deploy
 
 ### Changelog
 
