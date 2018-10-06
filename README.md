@@ -3,9 +3,9 @@
 Middleman v4 starter kit template created for middleman front-end development.
 If you wonder about middleman please [check out here](https://middlemanapp.com/)
 
-## Break Line Changes
+## Breaking Changes
 
-In Middleman (v4.3.0.rc.1) if you got some error when you run Middleman please use
+In Middleman (v4.3.0.rc.2) if you got some error when you run Middleman please use
 `NO_CONTRACTS=true bundle exec middleman server` instead of `middleman` or `middleman server`
 
 [More info](https://middlemanapp.com/basics/build-and-deploy/)
@@ -21,19 +21,23 @@ More information is [here](https://middlemanapp.com/advanced/project_templates/)
 Middleman start kit template basically build on HTML5 Boilerplate front-end
 template. Ready to use Rails assets file structure, Sass file structure.
 
-- Middleman v4.3.0.rc.1
+- Middleman v4.3.0.rc.2
 - Haml v5
 - Sass
 - Autoprefixer
 - EcmaScript 6
 - jQuery
-- Bootstrap v4 ("4.1.1")
+- Bootstrap v4 ("4.1.3")
 - Editor Config
 - Simple sitemap helper
 - humans.txt
 - Open graph meta tags
 
 ### Changelog
+
+[06/10/2018]
+
+- Update Middleman v4.3.0.rc.2
 
 [11/07/2018]
 
@@ -47,7 +51,7 @@ template. Ready to use Rails assets file structure, Sass file structure.
 
 - Update layout.haml
 - Update jQuery
-- Removed IE9 support 
+- Removed IE9 support
 - Removed font-awesome CDN (use SVG icons)
 
 [28/02/2018]
