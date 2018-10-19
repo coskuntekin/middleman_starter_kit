@@ -35,6 +35,9 @@ end
 # Development Environment
 configure :development do
 
+  #To activate the middleman-sprockets
+  activate :sprockets
+
   # Reload the browser automatically whenever files change
   activate :livereload, :no_swf => true
 

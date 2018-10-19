@@ -3,18 +3,18 @@
 
 .container
   .row
-    .col-12.mt-50
+    .col-sm-12.col-12.mt-5
       .jumbotron.text-center
         =image_tag 'middleman-logo.svg', alt: 'middleman'
         %hr.my-4
         %h1.display-2
           Front-end Starter Kit
-    .col-6.mt-50
+    .col-sm-6.col-12.mt-5
       .card
         .card-header
           Introduction
-        .card-body      
-          %p.card-text 
+        .card-body
+          %p.card-text
             :markdown
               Middleman v4 starter kit template created for middleman front-end development.
               If you wonder about middleman please [check out here](https://middlemanapp.com/)
@@ -41,13 +41,13 @@
               - humans.txt
               - Open graph meta tags
               - Middleman Deploy
-              - ERb simple page 
-    .col-6.mt-50
+              - ERb simple page
+    .col-sm-6.col-12.mt-5
       .card
         .card-header
           Sitemap
         .card-body
-          %p.card-text 
+          %p.card-text
             %ul.list-group
               - sitemap.resources.each do |page|
                 - if page.url =~ /\.html/
