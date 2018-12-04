@@ -5,7 +5,7 @@ If you wonder about middleman please [check out here](https://middlemanapp.com/)
 
 ## Breaking Changes
 
-In Middleman (v4.3.0.rc.2) if you got some error when you run Middleman please use
+In Middleman (v4.3.0.rc.4) if you got some error when you run Middleman please use
 `NO_CONTRACTS=true bundle exec middleman server` instead of `middleman` or `middleman server`
 
 [More info](https://middlemanapp.com/basics/build-and-deploy/)
@@ -21,7 +21,7 @@ More information is [here](https://middlemanapp.com/advanced/project_templates/)
 Middleman start kit template basically build on HTML5 Boilerplate front-end
 template. Ready to use Rails assets file structure, Sass file structure.
 
-- Middleman v4.3.0.rc.3
+- Middleman v4.3.0.rc.4
 - Haml v5
 - Sass
 - Autoprefixer
