@@ -35,6 +35,12 @@ template. Ready to use Rails assets file structure, Sass file structure.
 
 ### Changelog
 
+[09/01/2019]
+
+- Update Middleman v4.3.0.rc.4
+- Update Normalize.css
+- Update Ruby version (v2.6.0)
+
 [18/10/2018]
 
 - Update Middleman v4.3.0.rc.3
