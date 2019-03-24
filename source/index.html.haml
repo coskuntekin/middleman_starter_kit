@@ -1,55 +1,31 @@
 -@title= 'Middleman Starter Kit'
 -@page_classes= 'home'
 
-.container
-  .row
-    .col-sm-12.col-12.mt-5
-      .jumbotron.text-center
-        =image_tag 'middleman-logo.svg', alt: 'middleman'
-        %hr.my-4
-        %h1.display-2
-          Front-end Starter Kit
-    .col-sm-6.col-12.mt-5
-      .card
-        .card-header
-          Introduction
-        .card-body
-          %p.card-text
-            :markdown
-              Middleman v4 starter kit template created for middleman front-end development.
-              If you wonder about middleman please [check out here](https://middlemanapp.com/)
 
-              ### Quick start
-              `middleman init your_project_name --template=middleman-starter-kit`
+%main{role:'main', class:'main'}
+  %section{class:'section-img'}
+    =image_tag 'middleman-logo.svg', class:'img-svg', alt: 'middleman'
+  %section{class:'section-text'}
+    %p
+      :markdown
+        # Hello There!
+        Middleman v4 starter kit template created for middleman front-end development.
 
-              More information is [here](https://middlemanapp.com/advanced/project_templates/)
+        ### Quick start
+        `middleman init your_project_name --template=middleman-starter-kit`
 
-              ### What's Include
-              Middleman start kit template basically build on HTML5 Boilerplate front-end
-              template. Ready to use Rails assets file structure, Sass file structure.
+        More information is [here](https://middlemanapp.com/advanced/project_templates/)
 
-              - Middleman v4
-              - Haml v5
-              - ERb
-              - Sass
-              - Autoprefixer
-              - jQuery
-              - Bootstrap v4 (4.0)
-              - Font Awesome (CDN)
-              - Editor Config
-              - Simple sitemap helper
-              - humans.txt
-              - Open graph meta tags
-              - Middleman Deploy
-              - ERb simple page
-    .col-sm-6.col-12.mt-5
-      .card
-        .card-header
-          Sitemap
-        .card-body
-          %p.card-text
-            %ul.list-group
-              - sitemap.resources.each do |page|
-                - if page.url =~ /\.html/
-                  %li.list-group-item
-                    = link_to page.url, page.url
+        ### What's Include
+        Middleman start kit template basically build on HTML5 Boilerplate front-end
+        template. Ready to use Rails assets file structure, Sass file structure
+
+        - Middleman v4
+        - Haml v5
+        - Sass
+        - Autoprefixer
+        - ECMAScript 6
+        - Editor Config
+        - Simple sitemap helper
+        - humans.txt
+        - Open graph meta tags

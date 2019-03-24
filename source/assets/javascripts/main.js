@@ -1,6 +1,9 @@
 //------------------------------------
-//	#Bootstrap JS Components
+//	# Import Components
 //------------------------------------
 
-//= require popper
-//= require bootstrap-sprockets
+'use strict';
+
+import { doStuff } from '../javascripts/components/lib.js';
+
+doStuff('awesome');
