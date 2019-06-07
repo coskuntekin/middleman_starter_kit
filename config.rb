@@ -58,6 +58,9 @@ configure :build do
   # Automatic image dimensions on image_tag helpers
   # activate :automatic_image_sizes
 
+  #To activate the middleman-sprockets
+  # activate :sprockets
+
   # Autoprefixer
   activate :autoprefixer do |prefix|
     prefix.browsers = "last 1 versions"

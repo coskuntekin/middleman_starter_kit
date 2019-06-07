@@ -2,8 +2,8 @@
 //	# Import Components
 //------------------------------------
 
-'use strict';
+// jshint esversion: 6 
 
-import { doStuff } from '../javascripts/components/lib.js';
+import { doStuff } from './components/lib.js/index.js';
 
 doStuff('awesome');

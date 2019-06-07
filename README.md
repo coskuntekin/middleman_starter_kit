@@ -18,13 +18,22 @@ template. Ready to use Rails assets file structure, Sass file structure.
 - Haml v5
 - Sass
 - Autoprefixer
-- ECMAScript 6
+- JavaScript Modules
+- EcmaScript 6 
 - Editor Config
 - Simple sitemap helper
 - humans.txt
 - Open graph meta tags
 
 ### Changelog
+
+[07/06/2019]
+
+- Fix browserconfig
+- Add `jshint esversion: 6`
+- Add `utilities.sass`
+- Add meta tag for theme color
+- Add `babel-transpiler`
 
 [24/03/2019]
 

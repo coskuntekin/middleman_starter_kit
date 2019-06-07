@@ -1,8 +1,14 @@
 {
-    "icons": [{
-        "src": "icon.png",
-        "sizes": "192x192",
-        "type": "image/png"
-    }],
-    "start_url": "/"
+  "short_name": "",
+  "name": "",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#fbc547",
+  "theme_color": "#fbc547"  
 }
