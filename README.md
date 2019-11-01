@@ -27,6 +27,11 @@ template. Ready to use Rails assets file structure, Sass file structure.
 
 ### Changelog
 
+[01/11/2019]
+
+- File formats convert to `erb`
+- Update gems
+
 [07/06/2019]
 
 - Fix browserconfig
