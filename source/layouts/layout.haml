@@ -1,40 +1,40 @@
 !!!5
 %html{lang:'en'}
   %head
-    %meta{charset: 'utf-8'}
-    %meta{content: 'ie=edge', 'http-equiv':'x-ua-compatible'}
+    %meta{ charset: 'utf-8' }
+    %meta{ content: 'ie=edge', 'http-equiv':'x-ua-compatible' }
 
     %title
-      =@title
+      =@page_title
 
-    %meta{name:'description',content:''}
-    %meta{content: 'width=device-width, initial-scale=1, shrink-to-fit=no', name: 'viewport'}
+    %meta{ name:'description', content:'' }
+    %meta{ content: 'width=device-width, initial-scale=1, shrink-to-fit=no', name: 'viewport' }
 
     // stylesheets
     =stylesheet_link_tag  'application'
 
     // open graph data
-    %meta{content: 'http://www.youraddress.com', property: 'og:url'}
-    %meta{content: 'website', property: 'og:type'}
-    %meta{content: 'Your Awesome Title', property: 'og:title'}
-    %meta{content: 'Your Description', property: 'og:description'}
-    %meta{content: 'yourbanner.png', property: 'og:image'}
+    %meta{ content: 'http://www.youraddress.com', property: 'og:url' }
+    %meta{ content: 'website', property: 'og:type' }
+    %meta{ content: 'Your Awesome Title', property: 'og:title' }
+    %meta{ content: 'Your Description', property: 'og:description' }
+    %meta{ content: 'yourbanner.png', property: 'og:image' }
 
     // twitter card data
-    %meta{content:'summary', name:'twitter:card'}
-    %meta{content:'@yourname', name:'twitter:site'}
-    %meta{content:'Your Awesome Title', name:'twitter:title'}
-    %meta{content:'Your Description', name: 'twitter:description'}
-    %meta{content: '@yourname', name: 'twitter:creator'}
+    %meta{ content:'summary', name:'twitter:card' }
+    %meta{ content:'@yourname', name:'twitter:site' }
+    %meta{ content:'Your Awesome Title', name:'twitter:title' }
+    %meta{ content:'Your Description', name: 'twitter:description' }
+    %meta{ content: '@yourname', name: 'twitter:creator' }
 
-    %link{type:'text/plain', rel:'author', href:'/humans.txt'}
+    %link{ type:'text/plain', rel:'author', href:'/humans.txt' }
+ 
+    %link{ href:'site.webmanifest', rel:'manifest' }
+    %link{ href:"icon.png", rel:'apple-touch-icon' }
+    %link{ rel:'icon', href:'favicon.ico' }
+    %meta{ name:'theme-color', content:'#fbc547' }
 
-    %link{href:'site.webmanifest', rel:'manifest'}
-    %link{href:"icon.png", rel:'apple-touch-icon'}
-    %link{rel:'icon', href:'favicon.ico'}
-    %meta{name:'theme-color', content:'#fbc547'}
-
-  %body{class: @page_classes}
+  %body{ class: @page_classes }
 
     /[if lte IE 9]
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
