@@ -14,11 +14,9 @@ More information is [here](https://middlemanapp.com/advanced/project_templates/)
 Middleman start kit template basically build on HTML5 Boilerplate front-end
 template. Ready to use Rails assets file structure, Sass file structure.
 
-- Middleman v4.3.3
-- Haml v5
-- Sass
+- Middleman v4.3.5
 - Autoprefixer
-- JavaScript Modules
+- Webpack
 - EcmaScript 6 
 - Editor Config
 - Simple sitemap helper
@@ -26,6 +24,11 @@ template. Ready to use Rails assets file structure, Sass file structure.
 - Open graph meta tags
 
 ### Changelog
+
+[25/01/2020]
+
+- Implement Webpack
+- Update gems
 
 [01/11/2019]
 
