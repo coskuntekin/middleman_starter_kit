@@ -1,9 +1,10 @@
 //------------------------------------
-//	# Import Components
+//	# List of Application
 //------------------------------------
 
 // jshint esversion: 6 
 
-import { doStuff } from './components/lib.js/index.js';
+import { doStuff } from './components/lib.js';
 
 doStuff('awesome');
+

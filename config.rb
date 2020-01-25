@@ -35,9 +35,6 @@ end
 # Development Environment
 configure :development do
 
-  #To activate the middleman-sprockets
-  # activate :sprockets
-
   # Reload the browser automatically whenever files change
   activate :livereload, :no_swf => true
 
@@ -50,6 +47,15 @@ configure :development do
   # Pretty URLs
   # activate :directory_indexes
 
+  activate :external_pipeline,
+  name: :webpack,
+  command: build? ? 'yarn run build' : 'yarn run start',
+  source: 'build',
+  latency: 1
+
+  config[:js_dir] = 'assets/javascripts'
+  config[:css_dir] = 'assets/stylesheets'  
+
 end
 
 # Build Environment
@@ -57,9 +63,6 @@ configure :build do
   
   # Automatic image dimensions on image_tag helpers
   # activate :automatic_image_sizes
-
-  #To activate the middleman-sprockets
-  # activate :sprockets
 
   # Autoprefixer
   activate :autoprefixer do |prefix|
