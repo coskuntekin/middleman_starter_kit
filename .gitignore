@@ -30,3 +30,8 @@
 
 #Ignore ngrok [https://ngrok.com/]
 ngrok
+
+# Ignore Node Modules
+package-lock.json
+node_modules
+.tmp
