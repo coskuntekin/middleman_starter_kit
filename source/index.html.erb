@@ -1,11 +1,12 @@
 <% @page_title= 'Middleman Starter kit' %>
-<% @page_classes= 'home' %>
+<% @page_classes= 'page-home' %>
 
-<main role="main" class="main">
-  <section class="section-img">
+<main role="main" class="pl--2 pr--2 pt--3">
+  <section class="d--grid col--2 justify-items--center">
     <%= image_tag ('middleman-logo.svg'), class:'img-svg', alt:'middleman'%>
+    <%= image_tag ('logo-beige.svg'), class:'img-svg', alt:'stimulus'%>
   </section>
-  <section class="section-text">
+  <section>
     <h1>
       Hello There!
     </h1>
@@ -36,7 +37,10 @@
         Middleman v4
       </li>
       <li>
-        Haml v5
+        Stimulus.js
+      </li>
+      <li>
+        Turbolinks
       </li>
       <li>
         Sass
