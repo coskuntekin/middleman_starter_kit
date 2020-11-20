@@ -1,3 +1,25 @@
 //------------------------------------
 // # Functions
 //------------------------------------
+
+@for $var from 1 through 5
+  .pl--#{$var}
+    padding-left: $var + rem
+  .pr--#{$var}
+    padding-right: $var + rem
+  .pt--#{$var}
+    padding-top: $var + rem
+  .pb--#{$var}
+    padding-bottom: $var + rem
+  .ml--#{$var}
+    margin-left: $var + rem
+  .mr--#{$var}
+    margin-right: $var + rem
+  .mb--#{$var}
+    margin-bottom: $var + rem
+  .mt--#{$var}
+    margin-top: $var + rem
+
+@for $var from 0 through 4
+  .w--#{($var * 25)}
+    width: ($var * 25) + unquote('%')
