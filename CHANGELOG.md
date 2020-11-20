@@ -1,5 +1,12 @@
 ### Changelog
 
+[20/11/2020]
+- Add Stimulus.js
+- Add Turbolinks
+- Update landing page
+- Add grid Sass compontn
+- Add Sass space functions 
+
 [30/03/2020]
 - Remove haml layout 
 - Update readme
