@@ -1,5 +1,10 @@
 ### Changelog
 
+[25/04/2021]
+- Upgrade Webpack
+- Add TailwindCSS
+- Update Stimulus.js
+
 [20/11/2020]
 - Add Stimulus.js
 - Add Turbolinks

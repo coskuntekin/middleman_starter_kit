@@ -2,11 +2,14 @@
 //	# List of Application
 //------------------------------------
 
-// Turbolinks init
-const Turbolinks = require("turbolinks");
-Turbolinks.start();
+/* eslint-disable no-undef */
 
-// Import stimulus
+// Import Style
+import "../stylesheets/tailwind.css";
+
+import "../stylesheets/application.scss";
+
+// Import stimulus.js
 import { Application } from "stimulus";
 import { definitionsFromContext } from "stimulus/webpack-helpers";
 

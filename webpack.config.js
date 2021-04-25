@@ -1,64 +1,44 @@
+/* eslint-disable no-undef */
 
-// jshint esversion: 6 
-
-const path = require('path');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const path = require("path");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-  entry: {
-    main: [
-      './source/assets/javascripts/index.js',
-      './source/assets/stylesheets/application.scss'
-    ]
-  },
+  mode: "development",
+  entry: [
+    "./source/assets/javascripts/index.js",
+    "./source/assets/stylesheets/application.scss",
+    "./source/assets/stylesheets/tailwind.css",
+  ],
   output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: 'bundle.js'
+    path: path.resolve(__dirname, "build"),
   },
+  devServer: {
+    open: true,
+    host: "localhost",
+  },
+  plugins: [new MiniCssExtractPlugin({})],
   module: {
-    rules: [{
-      test: /\.m?js$/,
-      exclude: /(node_modules)/,
-      loader: 'babel-loader',
-      options: {
-        presets: [
-          '@babel/preset-env',
-          {
-            'plugins': ['@babel/plugin-proposal-class-properties']
-          }]
-      }
-    },
-    {
-      test: /\.scss$/,
-      use: [
-        {
-          loader: MiniCssExtractPlugin.loader,
-          options: {
-            hmr: process.env.NODE_ENV === 'development',
-          },
-        },
-        'css-loader',
-        {
-          loader: 'sass-loader',
-          options: {
-            includePaths: ['', '']
-          }
-        }
-      ],
-      resolve: {
-        extensions: ['.scss', '.sass'],
-      }
-    },
-    {
-      test: /\.css$/,
-      use: ['style-loader', 'css-loader']
-    }
-    ]
+    rules: [
+      {
+        test: /\\.(js|jsx)$/,
+        loader: "babel-loader",
+      },
+      {
+        test: /\.s?css$/i,
+        exclude: /node_modules/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          "css-loader",
+          "postcss-loader",
+          "sass-loader",
+        ],
+      },
+      {
+        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/,
+        type: "asset",
+      },
+    ],
   },
-  plugins: [
-    new MiniCssExtractPlugin({
-      filename: '[name].css',
-      chunkFilename: '[id].css',
-    }),
-  ]
+  devtool: "source-map",
 };

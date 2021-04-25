@@ -21,8 +21,8 @@ template. Ready to use Rails assets file structure, Sass file structure.
 
 - Middleman v4.3.11
 - Stimulus.js
-- Turbolinks
 - Webpack
+- TailwindCSS
 - Autoprefixer
 - EcmaScript 6 
 - Editor Config

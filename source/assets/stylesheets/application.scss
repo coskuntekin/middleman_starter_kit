@@ -1,7 +1,7 @@
 //------------------------------------
 // # Application
 //------------------------------------
-  
+
 //## Helpers
 @import "helpers/functions";
 @import "helpers/mixins";
@@ -9,12 +9,8 @@
 @import "helpers/variables";
 
 //## Base
-@import "base/normalize";
 @import "base/typography";
 @import "base/utilities";
-
-//## Components
-@import "components/grid";
 
 //## Layouts
 @import "layout/header";

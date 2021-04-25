@@ -4,41 +4,43 @@
   "description": "Middleman v4 starter kit template created for middleman front-end development. If you wonder about middleman please [check out here](https://middlemanapp.com/)",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=development ./node_modules/webpack/bin/webpack.js --watch -d --color",
-    "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --mode=development --watch --color",
+    "build": "webpack --mode=production --bail -p",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coskuntekin/middleman_starter_kit.git"
   },
-  "author": "",
+  "author": "coskuntekin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/coskuntekin/middleman_starter_kit/issues"
   },
   "homepage": "https://github.com/coskuntekin/middleman_starter_kit#readme",
   "devDependencies": {
-    "@babel/core": "^7.1.5",
-    "@babel/preset-env": "^7.1.5",
-    "babel-loader": "^8.0.4",
-    "css-loader": "^1.0.1",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "mini-css-extract-plugin": "^0.6.0",
-    "node-sass": "^4.10.0",
-    "postcss-loader": "^3.0.0",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "stylelint": "^9.8.0",
-    "stylelint-config-recommended-scss": "^3.2.0",
-    "stylelint-scss": "^3.4.0",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.1.2"
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@webpack-cli/generators": "^2.0.0",
+    "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "mini-css-extract-plugin": "^1.5.0",
+    "postcss": "^8.2.12",
+    "postcss-loader": "^5.2.0",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "tailwindcss": "^2.1.2",
+    "webpack": "^5.34.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "stimulus": "^1.1.1",
-    "turbolinks": "^5.2.0"
+    "stimulus": "^2.0.0"
   }
 }
