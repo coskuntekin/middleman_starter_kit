@@ -2402,8 +2402,8 @@ first-chunk-stream@^2.0.0:
     readable-stream "^2.0.2"
 
 follow-redirects@^1.0.0, follow-redirects@^1.14.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.0.tgz#06441868281c86d0dda4ad8bdaead2d02dca89d4"
+  version "1.15.4"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.4.tgz#cdc7d308bf6493126b17ea2191ea0ccf3e535adf"
 
 for-in@^1.0.2:
   version "1.0.2"
