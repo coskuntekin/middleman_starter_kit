@@ -3336,11 +3336,11 @@ klona@^2.0.4:
   resolved "https://registry.npmjs.org/klona/-/klona-2.0.4.tgz"
 
 launch-editor@^2.6.1:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/launch-editor/-/launch-editor-2.10.0.tgz#5ca3edfcb9667df1e8721310f3a40f1127d4bc42"
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/launch-editor/-/launch-editor-2.14.1.tgz#f7e0da3f58aaea03fea01074d840b5f739ed7ddc"
   dependencies:
-    picocolors "^1.0.0"
-    shell-quote "^1.8.1"
+    picocolors "^1.1.1"
+    shell-quote "^1.8.4"
 
 lazy-cache@^2.0.1:
   version "2.0.2"
@@ -3913,7 +3913,7 @@ path-type@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/path-type/-/path-type-4.0.0.tgz"
 
-picocolors@^1.0.0, picocolors@^1.1.1:
+picocolors@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.1.1.tgz#3d321af3eab939b083c8f929a1d12cda81c26b6b"
 
@@ -4514,9 +4514,9 @@ shebang-regex@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz"
 
-shell-quote@^1.8.1:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.8.3.tgz#55e40ef33cf5c689902353a3d8cd1a6725f08b4b"
+shell-quote@^1.8.4:
+  version "1.8.4"
+  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.8.4.tgz#2edd9a4dcefc96649e2e2cb12f637b1f1d92a190"
 
 shelljs@^0.8.4:
   version "0.8.4"
