@@ -1,3 +1,5 @@
+
+
 # Middleman v4 Front-end Starter Kit
 
 Middleman v4 starter kit template created for middleman front-end development.
@@ -8,7 +10,7 @@ If you wonder about middleman please [check out here](https://middlemanapp.com/)
 `middleman init your_project_name --template=middleman-starter-kit`
 
 - Install Gems `bundle install` 
-- Install NPM Modules `npm install`
+- Install NPM Modules `yarn install`
 - Run ` middleman server`
 - For minify build `yarn run build`
 
